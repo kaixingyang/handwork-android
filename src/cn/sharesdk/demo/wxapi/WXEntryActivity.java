@@ -45,6 +45,7 @@ public class WXEntryActivity extends WechatHandlerActivity {
 			WXAppExtendObject obj = (WXAppExtendObject) msg.mediaObject;
 			Toast.makeText(this, obj.extInfo, Toast.LENGTH_SHORT).show();
 		}
+		// test a pr
 	}
 
 }
