@@ -46,7 +46,7 @@ public class WXEntryActivity extends WechatHandlerActivity {
 			Toast.makeText(this, obj.extInfo, Toast.LENGTH_SHORT).show();
 		}
 		// test a pr
-		test1(0);
+		test1(1);
 		test2(null);
 	}
 
