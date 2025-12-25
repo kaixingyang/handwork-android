@@ -45,6 +45,26 @@ public class WXEntryActivity extends WechatHandlerActivity {
 			WXAppExtendObject obj = (WXAppExtendObject) msg.mediaObject;
 			Toast.makeText(this, obj.extInfo, Toast.LENGTH_SHORT).show();
 		}
+		// test a pr
+		test1(1);
+		test2(null);
 	}
+
+	public void test1(int num){
+		int n = 10/num;
+		System.out.println(n);
+	}
+
+	public void test2(Person person){
+
+		System.out.println(person.age);
+	}
+	static class Person {
+		public int age =0;
+		public Person(){
+
+		}
+	}
+
 
 }
